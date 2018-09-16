@@ -1,0 +1,87 @@
+@import '"settings"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background-color: pink
+  // background: url("../img/bananas.png")
+  font-family: 'Prompt'
+  font-size: 18px
+  color: #373737
+
+.header
+  width: 100%
+  height: 10%
+  background-color: $main-color
+  color: #fff
+  font-family: 'Montserrat'
+  font-size: 8vh
+  text-transform: uppercase
+  padding-left: 3%
+  box-shadow: 0px 1px 26px 0px rgba(192,178,131,1)
+
+.signup-form
+  // height: auto
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 50px
+
+  .signup-form_box
+    background-color: #F4F4F4
+    border-radius: 10px
+    display: flex
+    flex-flow: column
+    align-items: center
+    padding: 20px
+    box-shadow: 10px 10px 5px 0px rgba(198,185,143,1)
+    margin-bottom: 50px
+
+
+    .btn
+      border-radius: 20px
+      background-color: #c0b283
+      width: 50%
+      margin-top: 25px
+      padding: 10px 0
+      font-family: 'Prompt'
+      font-size: 1.1em
+      color: #f8f7f2
+      border: #f8f7f2 solid 1px
+      letter-spacing: 0.05em
+      transition: all .3s
+      cursor: pointer
+      align-self: center
+
+
+
+    .btn:hover
+      background-color: #f8f7f2
+      color: $main-color
+      border: $main-color solid 1px
+      transform: scale(1.05)
+
+    .title
+      text-align: center
+      font-weight: bold
+      font-size: 1.5em
+      margin-bottom: 30px
+
+
+    .signup-input
+
+      input
+        display: block
+        border: $main-color solid 1px
+        border-radius: 5px
+        padding: 10px
+        width: 400px
+        background-color: #f8f7f2
+        margin: 5px auto
+
+      .link
+        color: $main-color
+        text-decoration: none

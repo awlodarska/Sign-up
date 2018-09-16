@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Prompt:400,700')
+    link(rel="stylesheet" href="dist/css/style.css")
+    title Sign-up form
+  body
+    .container
+      .header loghub
+      .signup-form
+        .signup-form_box
+          .title Join us now! lala
+          
+          .signup-input
+            label(for='full-name') Full name
+            input(type='name' id='name')
+          .signup-input
+            label(for='email') Email adress
+            input(type='email' id='email')
+          .signup-row
+            .signup-input.input-row
+              label(for='full-name') Password
+              input(type='password' id='password')
+            .signup-input.input-row
+              label(for='full-name') Confirm password
+              input(type='password' id='password')
+          .signup-input
+            input(type="checkbox" value="true" id="agreement")
+            
+          input(type='submit' value='Sign up!' class='btn')
